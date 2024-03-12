@@ -65,6 +65,7 @@
     </tbody>
 </table>
 <?php
+// Phân trang bằng php
     if(isset($_SESSION['username'])){
         include "./phantrang.php";
     }
